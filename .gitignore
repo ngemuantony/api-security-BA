@@ -1,0 +1,54 @@
+VENV\*
+venv\
+cookies.txt
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore environment variables file
+.env
+# Ignore log files
+*.log
+# Ignore coverage reports
+.coverage
+# Ignore build directories
+build/
+# Ignore distribution directories
+dist/
+# Ignore egg-info directories
+*.egg-info/
+# Ignore virtual environment directories
+# Ignore IDE/editor specific files
+.idea/
+.vscode/
+# Ignore macOS Finder files
+.DS_Store
+# Ignore Windows thumbnail cache
+Thumbs.db
+# Ignore Python packaging files
+*.egg
+# Ignore pipenv files
+Pipfile.lock
+# Ignore poetry files
+poetry.lock
+# Ignore test output files
+test_output/
+# Ignore documentation build directories
+docs/_build/
+# Ignore coverage configuration files
+.coveragerc
+# Ignore Sphinx build directories
+docs/_build/
+# Ignore Jupyter Notebook metadata
+*.ipynb
+# Ignore Python virtual environment directories
+venv/
+# Ignore local configuration files
+*.local
+# Ignore temporary files
+*.tmp
+# Ignore backup files
+*.bak
+# Ignore cache directories
+.cache/
