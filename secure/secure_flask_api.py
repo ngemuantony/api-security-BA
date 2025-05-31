@@ -15,11 +15,10 @@ app.secret_key = secrets.token_hex(32)  # Strong secret key
 
 # Rate limiting setup
 limiter = Limiter(
-    app,
     key_func=get_remote_address,
     default_limits=["200 per day", "50 per hour"]
 )
-
+limiter.init_app(app)
 # In-memory store for failed login attempts (in production, use Redis)
 failed_attempts = {}
 locked_accounts = {}

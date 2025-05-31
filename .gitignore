@@ -52,3 +52,5 @@ venv/
 *.bak
 # Ignore cache directories
 .cache/
+.db
+
